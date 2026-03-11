@@ -1,13 +1,26 @@
 ---
 layout: project
-title: Spaceship Design
+title: Nutcracker design
 description: Just a spaceship that I designed
 technologies: [SolidWorks, Machining]
 image: /assets/images/spaceship-design.jpg
 ---
 
 
-In 2021, NASA asked me to design a spaceship...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+Homework 4- Design Problem Additional 2
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+In this homework assignment I was asked to design a lever-based a macadamia nut cracker with and without a linear actuator and determines both design's usability. My designs would ultimately determine the required dimensions of the nutcracker so a person applying a force at the handle can generate enough force at the nut to break the shell.
 
+The Constraints and Input Parameters include: 
+
+Linear Actutator force: 173.5 N, 
+Stroke: 1 in,
+ Length: 3.76, 
+ Total Length: 4.76, 
+ Grip Strength: 147N
+ Average macadamia nut diameter: .02
+ Average force required to crack a macadamia nut: 2177.4 N
+
+ The simple level system approach to this problem allowed me to take the moment balance about the pivot and solve for the distance from the pivot to the handle(.2963m), assuimng that the distance from the pivot to the nut is the diameter of the macadamia nut(.02 m). 
+
+ My design and 
