@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Nutcracker Design
+title: Nutcracker Design 2
 description: Homework 4- Design Problem Additional 2 
 technologies: [Autodesk Fusion]
 image: /assets/images/nutcracker1.jpg
