@@ -26,11 +26,11 @@ Stroke: 1 in,
 
 Original nut cracker design:
 
- ![]({{ '/assets/images/nutcracker1.jpg' | relative_url }}) 
+ ![]({{ '/assets/images/nutcracker1.jpg'| relative_url }}) 
 
 Line actuator cracker design:
  
- ![]({{ '/assets/images/nutcracker2.jpg' | relative_url }}) 
+ ![]({{ '/assets/images/nutcracker2.jpg'| relative_url }}) 
 
 
 The manual nutcracker design produces sufficient force to crack the macadamia nut while maintaining a reasonable device size. However, requiring 15 kg of grip force may not be realistic for all users, particularly those with limited hand strength. 
