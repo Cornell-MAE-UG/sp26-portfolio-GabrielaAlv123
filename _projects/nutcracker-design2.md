@@ -1,12 +1,12 @@
 ---
 layout: project
 title: Nutcracker Design
-description: Advanced CAD Project
+description: Homework 4- Design Problem Additional 2
 technologies: [Autodesk Fusion]
 image: /assets/images/nutcracker1.jpg
 ---
 
-Homework 4- Design Problem Additional 2
+
 
 In this homework assignment I was asked to design a lever-based a macadamia nut cracker with and without a linear actuator and determines both design's usability. My designs would ultimately determine the required dimensions of the nutcracker so a person applying a force at the handle can generate enough force at the nut to break the shell.
 
