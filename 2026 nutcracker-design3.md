@@ -1,8 +1,7 @@
 ---
 layout: project
-title: Nutcracker design
-description: Just a spaceship that I designed
-technologies: [SolidWorks, Machining]
+title: Nutcracker design 3
+description: HW 12- Design Problem 
 image: /assets/images/spaceship-design.jpg
 ---
 
