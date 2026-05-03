@@ -26,27 +26,20 @@ To simplify the analysis, I made the following assumptions:
 
 From my previous design, the required nut-cracking force was:
 
-\[
-F_{nut} = 2570.5 \text{ N}
-\]
+
+F_{nut} = 2570.5 N
 
 The actuator force was:
 
-\[
-F_{actuator} = 173.5 \text{ N}
-\]
+F_{actuator} = 173.5 N
 
 The beam length was:
 
-\[
-L = 0.3336 \text{ m}
-\]
+L = 0.3336 m
 
 Since the maximum allowed deflection was 2% of the beam length,
 
-\[
-\delta_{max} = 0.02(0.3336) = 0.006672 \text{ m}
-\]
+delta_{max} = 0.02(0.3336) = 0.006672 m
 
 ## Maximum Deflection Location
 
@@ -54,70 +47,32 @@ Since the maximum allowed deflection was 2% of the beam length,
 
 The nut force was located at:
 
-\[
-a = 0.0273 \text{ m}
-\]
+a = 0.0273 m
 
 from the pin support. The remaining beam length to the actuator support was:
 
-\[
-b = 0.3063 \text{ m}
-\]
+b = 0.3063 m
 
-Using the beam deflection equation from Appendix E for the case where \(a < b\), the location of maximum deflection is:
+Using the beam deflection equation from Appendix E for the case where (a < b), the location of maximum deflection is:
 
-\[
-x_m = \sqrt{\frac{L^2-a^2}{3}}
-\]
+x_m= 0.192 m ( from the pin)
 
-Substituting the values:
 
-\[
-x_m = \sqrt{\frac{(0.3336)^2-(0.0273)^2}{3}}
-\]
-
-\[
-x_m = 0.192 \text{ m}
-\]
-
-Therefore, the maximum elastic deflection occurs approximately:
-
-\[
-\boxed{x_m = 0.192 \text{ m from the pin}}
-\]
 ## Beam Design
 
 To keep the vertical elastic deflection below 2% of the beam length, I used the maximum deflection equation:
 
-\[
-y_{max} =
-\frac{-Pa}{9\sqrt{3}EIL}
-\left(L^2-a^2\right)^{3/2}
-\]
-
 I used polycarbonate as the beam material, with an elastic modulus of approximately:
 
-\[
-E = 2.4 \times 10^9 \text{ Pa}
-\]
-
+E = 2.4*10^9  Pa
 Solving for the required moment of inertia gave:
 
-\[
-I = 3.097 \times 10^{-8} \text{ m}^4
-\]
-
-Converting this to \(\text{mm}^4\):
-
-\[
-I = 0.03097 \times 10^6 \text{ mm}^4
-\]
+I = 0.03097*10^6 mm^4
 
 Using a beam chart, the closest available cross-section was a polycarbonate C-channel with:
 
-\[
-I_x = 0.677 \times 10^6 \text{ mm}^4
-\]
+
+I_x = 0.677*10^6 { mm}^4
 
 This value is greater than the required moment of inertia, so the selected beam should keep the elastic deflection below the 2% limit.
 
@@ -126,9 +81,8 @@ This value is greater than the required moment of inertia, so the selected beam 
 
 My final design uses a polycarbonate C-channel beam for the nutcracker handle. The chosen cross-section has approximate dimensions:
 
-\[
-75 \text{ mm} \times 8.9 \text{ mm}
-\]
+75 { mm} times 8.9 \text{ mm}
+
 
 The beam is supported by a pin on one side and the actuator on the other side. The nut force acts downward near the pin, while the actuator applies force near the end of the handle. The maximum deflection occurs about 0.192 m from the pin and is limited to 0.006672 m.
 
